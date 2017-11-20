@@ -1,4 +1,6 @@
 ﻿#target Photoshop
+ main();
+
 function main(){
 if(!documents.length) return;
 var doc = activeDocument;
@@ -15,11 +17,8 @@ for(var a=doc.layers.length-1;a > -1;a--){
     }
 doc.activeLayer.visible=true;
 }
-main();
 
-
-function createSmartObject()
-{
+function createSmartObject(){
     var idnewPlacedLayer = stringIDToTypeID( 'newPlacedLayer' );
     executeAction(idnewPlacedLayer, undefined, DialogModes.NO);  //photoshop action manager
 }
