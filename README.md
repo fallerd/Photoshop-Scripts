@@ -1,2 +1,2 @@
-# Groups-to-Smart-Objects
-Converts top level layer groups in Photoshop to Smart Objects
+# Photoshop Scripts
+A selection of productivity enhancing automation scripts I wrote for Adobe Photoshop that fit my various workflows.
